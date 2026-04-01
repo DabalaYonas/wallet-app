@@ -2,6 +2,14 @@
 
 A mobile-responsive React application for managing digital wallet transactions and calculating daily engagement points. Built with React 19, TypeScript, and Vite.
 
+## Screenshots
+
+<p align="center">
+  <img src="./screenshots/transaction-list.png" alt="Transaction List" width="45%" />
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="./screenshots/transaction-detail.png" alt="Transaction Detail" width="45%" />
+</p>
+
 ## Features
 
 - **Transactions List**: View a comprehensive list of all wallet transactions.
