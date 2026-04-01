@@ -1,0 +1,111 @@
+.td-screen {
+  min-height: 100vh;
+  background: #f2f2f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+  max-width: 430px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Back button */
+.td-back {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #007aff;
+  padding: 4px 8px;
+  z-index: 10;
+  line-height: 1;
+}
+
+/* Hero section: amount, merchant, date */
+.td-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 24px 36px;
+  gap: 4px;
+  text-align: center;
+}
+
+.td-amount {
+  font-size: 52px;
+  font-weight: 700;
+  color: #1c1c1e;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.td-merchant {
+  font-size: 16px;
+  color: #8e8e93;
+  margin: 6px 0 0;
+  font-weight: 400;
+}
+
+.td-date {
+  font-size: 14px;
+  color: #8e8e93;
+  margin: 0;
+}
+
+/* Detail card */
+.td-detail-card {
+  background: #ffffff;
+  border-radius: 16px;
+  margin: 0 16px;
+  overflow: hidden;
+}
+
+/* Generic row */
+.td-row {
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+/* Inline (space-between) row */
+.td-row-inline {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.td-row-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+
+.td-row-sub {
+  font-size: 15px;
+  color: #8e8e93;
+}
+
+.td-divider {
+  height: 1px;
+  background: #f0f0f0;
+}
+
+.td-total-label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+
+.td-total-amount {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+
+.td-cashback-value {
+  font-size: 17px;
+  color: #8e8e93;
+}
